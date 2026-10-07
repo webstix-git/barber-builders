@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Us | Start Your Project | Barber Builders</title>
+  <meta name="description" content="Contact Barber Builders in Eau Claire, WI. Call 715-828-7780 or send us a message to start planning your custom home, addition, or remodel.">
+  <meta property="og:title" content="Contact Barber Builders">
+  <meta property="og:description" content="Start planning your custom home, addition, or remodel in the Chippewa Valley.">
+  <meta property="og:image" content="images/exterior-ranch-garage.jpg">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="index.html" aria-label="Barber Builders home">
+        <svg class="logo-mark" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="12" fill="#111111"/><path d="M12 34 32 16l20 18" fill="none" stroke="#baab5d" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><path d="M19 31v17h26V31" fill="none" stroke="#ffffff" stroke-width="4" stroke-linejoin="round"/><path d="M28 48V38h8v10" fill="none" stroke="#ffffff" stroke-width="4" stroke-linejoin="round"/></svg>
+        <span class="logo-text"><span class="logo-name">Barber Builders</span><span class="logo-tag">Custom Homes</span></span>
+      </a>
+      <input class="nav-toggle-input" type="checkbox" id="nav-toggle">
+      <label class="nav-toggle" for="nav-toggle"><span class="nav-toggle-bars"></span><span class="visually-hidden">Menu</span></label>
+      <nav class="main-nav" aria-label="Main">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li class="has-dropdown">
+            <a href="services.html">Services<svg class="nav-caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></a>
+            <ul class="nav-dropdown">
+              <li><a href="services.html#custom-homes">Custom Homes</a></li>
+              <li><a href="services.html#additions">Additions</a></li>
+              <li><a href="services.html#remodels">Remodels</a></li>
+              <li><a href="services.html#kitchens">Kitchens &amp; Baths</a></li>
+            </ul>
+          </li>
+          <li><a href="work.html">See Our Work</a></li>
+          <li><a href="contact.html" aria-current="page">Contact Us</a></li>
+        </ul>
+        <a class="btn btn--primary" href="contact.html">Start Your Project</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero page-hero--inner">
+      <img src="images/exterior-ranch-garage.jpg" alt="" fetchpriority="high">
+      <div class="container page-hero-body">
+        <span class="eyebrow">Get in Touch</span>
+        <h1>Contact Us</h1>
+        <p>Have a project in mind, or just a few ideas? Tell us about it. We'd love to help you take the stress out of building.</p>
+      </div>
+    </section>
+
+    <nav class="breadcrumb-bar" aria-label="Breadcrumb">
+      <div class="container">
+        <ol class="breadcrumb">
+          <li><a href="index.html">Home</a></li>
+          <li aria-current="page">Contact Us</li>
+        </ol>
+      </div>
+    </nav>
+
+    <section class="section contact-section">
+      <div class="container contact-grid">
+        <div class="form-card">
+          <h2>Tell us about your project</h2>
+          <p>Fill out the form and we'll reach out to talk through your ideas, timeline, and next steps.</p>
+          <p class="form-required">Fields marked with an asterisk (<span class="req">*</span>) are required.</p>
+
+          <form class="contact-form" action="mailto:barberbuilders@icloud.com?subject=Project%20inquiry%20from%20website" method="post" enctype="text/plain">
+            <div class="form-alert" role="alert" hidden></div>
+            <div class="form-grid">
+              <div class="form-field">
+                <label for="name">Full name <span class="req">*</span></label>
+                <input id="name" name="Name" type="text" autocomplete="name" required data-error="Please enter your full name.">
+              </div>
+              <div class="form-field">
+                <label for="email">Email <span class="req">*</span></label>
+                <input id="email" name="Email" type="email" autocomplete="email" required data-error="Please enter your email address.">
+              </div>
+              <div class="form-field">
+                <label for="phone">Phone</label>
+                <input id="phone" name="Phone" type="tel" autocomplete="tel">
+              </div>
+              <div class="form-field">
+                <label for="project">Project type <span class="req">*</span></label>
+                <select id="project" name="Project type" required data-error="Please choose a project type.">
+                  <option value="">Select a project type</option>
+                  <option>Custom Home</option>
+                  <option>Addition</option>
+                  <option>Remodel</option>
+                  <option>Kitchen</option>
+                  <option>Bath</option>
+                  <option>Screen Porch</option>
+                  <option>Deck</option>
+                  <option>Light Commercial</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <div class="form-field form-field--full">
+                <label for="timeline">Ideal timeline</label>
+                <select id="timeline" name="Timeline">
+                  <option value="">Select a timeline</option>
+                  <option>As soon as possible</option>
+                  <option>Within 3 months</option>
+                  <option>3 to 6 months</option>
+                  <option>6 to 12 months</option>
+                  <option>Just exploring ideas</option>
+                </select>
+              </div>
+              <div class="form-field form-field--full">
+                <label for="message">About your project <span class="req">*</span></label>
+                <textarea id="message" name="Message" required data-error="Please tell us a little about your project."></textarea>
+              </div>
+            </div>
+            <div class="form-foot">
+              <button class="btn btn--primary" type="submit">Request a Consultation</button>
+            </div>
+          </form>
+        </div>
+
+        <aside class="contact-card" aria-label="Contact details">
+          <h2>Contact information</h2>
+          <ul class="contact-list">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <div>
+                <span class="contact-label">Phone</span>
+                <a href="tel:+17158287780">715-828-7780</a>
+              </div>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+              <div>
+                <span class="contact-label">Office</span>
+                <a href="https://www.google.com/maps/search/?api=1&amp;query=4319+Jeffers+Road+Suite+103+Eau+Claire+WI+54703" target="_blank" rel="noopener">4319 Jeffers Road, Suite 103<br>Eau Claire, WI 54703<span class="visually-hidden"> (opens Google Maps in a new tab)</span></a>
+              </div>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
+              <div>
+                <span class="contact-label">Email</span>
+                <a href="mailto:barberbuilders@icloud.com">barberbuilders@icloud.com</a>
+              </div>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9.5 12 3l9 6.5V20a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1Z"/></svg>
+              <div>
+                <span class="contact-label">Service area</span>
+                <p>Eau Claire, the Chippewa Valley, and Western Wisconsin</p>
+              </div>
+            </li>
+          </ul>
+          <div class="contact-social">
+            <span class="contact-label">Follow us</span>
+            <a class="social-icon" href="https://www.facebook.com/profile.php?id=100063575473506" target="_blank" rel="noopener" aria-label="Barber Builders on Facebook (opens in a new tab)">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.5 22v-8h2.7l.4-3.2h-3.1V8.8c0-.9.3-1.6 1.6-1.6h1.7V4.4c-.3 0-1.3-.1-2.5-.1-2.5 0-4.1 1.5-4.1 4.2v2.3H7.4V14h2.8v8h3.3Z"/></svg>
+            </a>
+          </div>
+          <div class="contact-map">
+            <iframe title="Map to Barber Builders, 4319 Jeffers Road, Eau Claire, WI" src="https://maps.google.com/maps?q=4319%20Jeffers%20Road%20Suite%20103%2C%20Eau%20Claire%2C%20WI%2054703&amp;z=14&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <a class="logo" href="index.html" aria-label="Barber Builders home">
+            <svg class="logo-mark" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="12" fill="#baab5d"/><path d="M12 34 32 16l20 18" fill="none" stroke="#111111" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><path d="M19 31v17h26V31" fill="none" stroke="#111111" stroke-width="4" stroke-linejoin="round"/><path d="M28 48V38h8v10" fill="none" stroke="#111111" stroke-width="4" stroke-linejoin="round"/></svg>
+            <span class="logo-text"><span class="logo-name">Barber Builders</span><span class="logo-tag">Custom Homes</span></span>
+          </a>
+          <p>Built with love in Eau Claire and the Chippewa Valley since 2014.</p>
+          <div class="footer-social">
+            <span>Follow us on</span>
+            <a class="social-icon" href="https://www.facebook.com/profile.php?id=100063575473506" target="_blank" rel="noopener" aria-label="Barber Builders on Facebook">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.5 22v-8h2.7l.4-3.2h-3.1V8.8c0-.9.3-1.6 1.6-1.6h1.7V4.4c-.3 0-1.3-.1-2.5-.1-2.5 0-4.1 1.5-4.1 4.2v2.3H7.4V14h2.8v8h3.3Z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div>
+          <h2>Explore</h2>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="work.html">Our Work</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Services</h2>
+          <ul class="footer-links">
+            <li><a href="services.html#custom-homes">Custom Homes</a></li>
+            <li><a href="services.html#additions">Additions</a></li>
+            <li><a href="services.html#remodels">Remodels</a></li>
+            <li><a href="services.html#kitchens">Kitchens &amp; Baths</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Get in Touch</h2>
+          <ul class="footer-contact">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <a href="tel:+17158287780">715-828-7780</a>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+              <a href="https://www.google.com/maps/search/?api=1&amp;query=4319+Jeffers+Road+Suite+103+Eau+Claire+WI+54703" target="_blank" rel="noopener">4319 Jeffers Road, Suite 103<br>Eau Claire, WI 54703</a>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
+              <a href="mailto:barberbuilders@icloud.com">barberbuilders@icloud.com</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-legal">
+          <span>&copy; 2026 Barber Builders Inc. All rights reserved.</span>
+          <ul class="footer-legal-links">
+            <li><a href="sitemap.html">Site Map</a></li>
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="ai-policy.html">AI Policy</a></li>
+            <li><a href="ai-readiness.html">AI Readiness Service Index</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="js/contact-form.js" defer></script>
+</body>
+</html>

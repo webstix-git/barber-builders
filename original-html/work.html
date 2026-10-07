@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>See Our Work | Project Gallery | Barber Builders</title>
+  <meta name="description" content="Browse custom homes, kitchens, screen porches, decks, and projects under construction by Barber Builders in Eau Claire and the Chippewa Valley.">
+  <meta property="og:title" content="See Our Work | Barber Builders">
+  <meta property="og:description" content="A gallery of custom homes, remodels, porches, and decks built across the Chippewa Valley.">
+  <meta property="og:image" content="images/exterior-rear-deck.jpg">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="index.html" aria-label="Barber Builders home">
+        <svg class="logo-mark" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="12" fill="#111111"/><path d="M12 34 32 16l20 18" fill="none" stroke="#baab5d" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><path d="M19 31v17h26V31" fill="none" stroke="#ffffff" stroke-width="4" stroke-linejoin="round"/><path d="M28 48V38h8v10" fill="none" stroke="#ffffff" stroke-width="4" stroke-linejoin="round"/></svg>
+        <span class="logo-text"><span class="logo-name">Barber Builders</span><span class="logo-tag">Custom Homes</span></span>
+      </a>
+      <input class="nav-toggle-input" type="checkbox" id="nav-toggle">
+      <label class="nav-toggle" for="nav-toggle"><span class="nav-toggle-bars"></span><span class="visually-hidden">Menu</span></label>
+      <nav class="main-nav" aria-label="Main">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li class="has-dropdown">
+            <a href="services.html">Services<svg class="nav-caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></a>
+            <ul class="nav-dropdown">
+              <li><a href="services.html#custom-homes">Custom Homes</a></li>
+              <li><a href="services.html#additions">Additions</a></li>
+              <li><a href="services.html#remodels">Remodels</a></li>
+              <li><a href="services.html#kitchens">Kitchens &amp; Baths</a></li>
+            </ul>
+          </li>
+          <li><a href="work.html" aria-current="page">See Our Work</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <a class="btn btn--primary" href="contact.html">Start Your Project</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero page-hero--inner">
+      <img src="images/exterior-rear-deck.jpg" alt="" fetchpriority="high">
+      <div class="container page-hero-body">
+        <span class="eyebrow">Project Gallery</span>
+        <h1>See Our Work</h1>
+        <p>From the first framing walls to the final finishes, here's a look at homes and spaces we've built across the Chippewa Valley.</p>
+      </div>
+    </section>
+
+    <nav class="breadcrumb-bar" aria-label="Breadcrumb">
+      <div class="container">
+        <ol class="breadcrumb">
+          <li><a href="index.html">Home</a></li>
+          <li aria-current="page">See Our Work</li>
+        </ol>
+      </div>
+    </nav>
+
+    <section class="section section--light section--filtered">
+      <div class="container">
+        <input class="filter-input" type="radio" name="filter" id="f-all" checked>
+        <input class="filter-input" type="radio" name="filter" id="f-exterior">
+        <input class="filter-input" type="radio" name="filter" id="f-interior">
+        <input class="filter-input" type="radio" name="filter" id="f-kitchen">
+        <input class="filter-input" type="radio" name="filter" id="f-outdoor">
+        <input class="filter-input" type="radio" name="filter" id="f-construction">
+
+        <div class="filter-bar" role="group" aria-label="Filter projects">
+          <label for="f-all">All Projects</label>
+          <label for="f-exterior">Exteriors</label>
+          <label for="f-interior">Interiors</label>
+          <label for="f-kitchen">Kitchens &amp; Baths</label>
+          <label for="f-outdoor">Porches &amp; Decks</label>
+          <label for="f-construction">Under Construction</label>
+        </div>
+
+        <div class="gallery">
+          <a class="gallery-item cat-exterior cat-outdoor" id="thumb-1" href="#photo-1" aria-label="Open photo: Custom home with an elevated composite deck and lantern posts">
+            <img src="images/exterior-rear-deck.jpg" alt="Custom home with an elevated composite deck and lantern posts" loading="lazy">
+          </a>
+          <a class="gallery-item cat-interior" id="thumb-2" href="#photo-2" aria-label="Open photo: Great room with a stacked-stone fireplace and timber beam ceiling">
+            <img src="images/great-room-fireplace.jpg" alt="Great room with a stacked-stone fireplace and timber beam ceiling" loading="lazy">
+          </a>
+          <a class="gallery-item cat-construction" id="thumb-3" href="#photo-3" aria-label="Open photo: Timber gable framing against a blue sky">
+            <img src="images/framing-gable.jpg" alt="Timber gable framing against a blue sky" loading="lazy">
+          </a>
+          <a class="gallery-item cat-kitchen cat-interior" id="thumb-4" href="#photo-4" aria-label="Open photo: Kitchen with a granite island and bar seating">
+            <img src="images/kitchen-island.jpg" alt="Kitchen with a granite island and bar seating" loading="lazy">
+          </a>
+          <a class="gallery-item cat-kitchen cat-interior" id="thumb-5" href="#photo-5" aria-label="Open photo: Kitchen with dark wood cabinets, speckled granite counters, and a stainless range">
+            <img src="images/kitchen-granite-dark.jpg" alt="Kitchen with dark wood cabinets, speckled granite counters, and a stainless range" loading="lazy">
+          </a>
+          <a class="gallery-item cat-outdoor" id="thumb-6" href="#photo-6" aria-label="Open photo: Screened porch with wood ceiling overlooking the trees">
+            <img src="images/screen-porch.jpg" alt="Screened porch with wood ceiling overlooking the trees" loading="lazy">
+          </a>
+          <a class="gallery-item cat-exterior" id="thumb-7" href="#photo-7" aria-label="Open photo: Ranch home with a three-stall garage and new driveway">
+            <img src="images/exterior-ranch-garage.jpg" alt="Ranch home with a three-stall garage and new driveway" loading="lazy">
+          </a>
+          <a class="gallery-item cat-interior" id="thumb-8" href="#photo-8" aria-label="Open photo: Dark-stained timber beams crossing a tray ceiling">
+            <img src="images/coffered-ceiling.jpg" alt="Dark-stained timber beams crossing a tray ceiling" loading="lazy">
+          </a>
+          <a class="gallery-item cat-kitchen cat-interior" id="thumb-9" href="#photo-9" aria-label="Open photo: Walk-in tile shower with storage niches, a bench, and a mosaic accent band">
+            <img src="images/bath-tile-shower.jpg" alt="Walk-in tile shower with storage niches, a bench, and a mosaic accent band" loading="lazy">
+          </a>
+          <a class="gallery-item cat-construction" id="thumb-10" href="#photo-10" aria-label="Open photo: Vaulted room framed with large window openings">
+            <img src="images/framing-vaulted.jpg" alt="Vaulted room framed with large window openings" loading="lazy">
+          </a>
+          <a class="gallery-item cat-outdoor" id="thumb-11" href="#photo-11" aria-label="Open photo: Deck with a pergola surrounded by evergreens">
+            <img src="images/deck-pergola.jpg" alt="Deck with a pergola surrounded by evergreens" loading="lazy">
+          </a>
+          <a class="gallery-item cat-kitchen cat-interior" id="thumb-12" href="#photo-12" aria-label="Open photo: Kitchen with dark cabinets, island, and pendant lights">
+            <img src="images/kitchen-pendants.jpg" alt="Kitchen with dark cabinets, island, and pendant lights" loading="lazy">
+          </a>
+          <a class="gallery-item cat-kitchen cat-interior" id="thumb-13" href="#photo-13" aria-label="Open photo: Kitchen with navy cabinets, a stainless range hood, and a tile backsplash">
+            <img src="images/kitchen-navy-cabinets.jpg" alt="Kitchen with navy cabinets, a stainless range hood, and a tile backsplash" loading="lazy">
+          </a>
+          <a class="gallery-item cat-exterior" id="thumb-14" href="#photo-14" aria-label="Open photo: Sunroom addition with many windows">
+            <img src="images/sunroom-addition.jpg" alt="Sunroom addition with many windows" loading="lazy">
+          </a>
+          <a class="gallery-item cat-construction" id="thumb-15" href="#photo-15" aria-label="Open photo: Carpenter cutting trim at a job site workstation">
+            <img src="images/crew-at-work.jpg" alt="Carpenter cutting trim at a job site workstation" loading="lazy">
+          </a>
+          <a class="gallery-item cat-outdoor" id="thumb-16" href="#photo-16" aria-label="Open photo: Whitewashed wood plank porch ceiling with a ceiling fan">
+            <img src="images/porch-ceiling.jpg" alt="Whitewashed wood plank porch ceiling with a ceiling fan" loading="lazy">
+          </a>
+          <a class="gallery-item cat-kitchen cat-interior" id="thumb-17" href="#photo-17" aria-label="Open photo: Primary bathroom with a soaking tub and a lit vanity mirror">
+            <img src="images/bath-soaking-tub.jpg" alt="Primary bathroom with a soaking tub and a lit vanity mirror" loading="lazy">
+          </a>
+          <a class="gallery-item cat-exterior cat-outdoor" id="thumb-18" href="#photo-18" aria-label="Open photo: Rear of a custom home with a deck, patio, and garden">
+            <img src="images/exterior-patio-garden.jpg" alt="Rear of a custom home with a deck, patio, and garden" loading="lazy">
+          </a>
+          <a class="gallery-item cat-interior" id="thumb-19" href="#photo-19" aria-label="Open photo: Open living area with dark accent wall and new flooring">
+            <img src="images/living-room.jpg" alt="Open living area with dark accent wall and new flooring" loading="lazy">
+          </a>
+          <a class="gallery-item cat-construction" id="thumb-20" href="#photo-20" aria-label="Open photo: Framed walls and roof trusses on a new build">
+            <img src="images/framing-trusses.jpg" alt="Framed walls and roof trusses on a new build" loading="lazy">
+          </a>
+          <a class="gallery-item cat-kitchen cat-interior" id="thumb-21" href="#photo-21" aria-label="Open photo: Remodeled kitchen with white counters, wood cabinets, and a peninsula">
+            <img src="images/kitchen-quartz-island.jpg" alt="Remodeled kitchen with white counters, wood cabinets, and a peninsula" loading="lazy">
+          </a>
+          <a class="gallery-item cat-outdoor" id="thumb-22" href="#photo-22" aria-label="Open photo: Deck railing with stained wood and black balusters">
+            <img src="images/deck-railing.jpg" alt="Deck railing with stained wood and black balusters" loading="lazy">
+          </a>
+          <a class="gallery-item cat-interior" id="thumb-23" href="#photo-23" aria-label="Open photo: Stairwell with a window and wood handrail">
+            <img src="images/stairwell.jpg" alt="Stairwell with a window and wood handrail" loading="lazy">
+          </a>
+          <a class="gallery-item cat-exterior" id="thumb-24" href="#photo-24" aria-label="Open photo: New ranch home with gray siding">
+            <img src="images/exterior-ranch-front.jpg" alt="New ranch home with gray siding" loading="lazy">
+          </a>
+          <a class="gallery-item cat-kitchen cat-interior" id="thumb-25" href="#photo-25" aria-label="Open photo: Bathroom with a double vanity and dark wood cabinets">
+            <img src="images/bath-double-vanity.jpg" alt="Bathroom with a double vanity and dark wood cabinets" loading="lazy">
+          </a>
+          <a class="gallery-item cat-construction" id="thumb-26" href="#photo-26" aria-label="Open photo: Crane lifting roof trusses onto a framed home">
+            <img src="images/framing-crane.jpg" alt="Crane lifting roof trusses onto a framed home" loading="lazy">
+          </a>
+          <a class="gallery-item cat-outdoor" id="thumb-27" href="#photo-27" aria-label="Open photo: Screen porch with seating and ceiling fans">
+            <img src="images/screen-porch-lounge.jpg" alt="Screen porch with seating and ceiling fans" loading="lazy">
+          </a>
+          <a class="gallery-item cat-kitchen cat-interior" id="thumb-28" href="#photo-28" aria-label="Open photo: Kitchen with dark cabinets, a raised bar, and stainless appliances">
+            <img src="images/kitchen-bar-seating.jpg" alt="Kitchen with dark cabinets, a raised bar, and stainless appliances" loading="lazy">
+          </a>
+          <a class="gallery-item cat-interior" id="thumb-29" href="#photo-29" aria-label="Open photo: Bedroom with two large windows and closet doors">
+            <img src="images/bedroom.jpg" alt="Bedroom with two large windows and closet doors" loading="lazy">
+          </a>
+          <a class="gallery-item cat-exterior" id="thumb-30" href="#photo-30" aria-label="Open photo: Custom home with green-gray siding and stone accents">
+            <img src="images/exterior-gray-siding.jpg" alt="Custom home with green-gray siding and stone accents" loading="lazy">
+          </a>
+          <a class="gallery-item cat-kitchen cat-interior" id="thumb-31" href="#photo-31" aria-label="Open photo: Soaking tub with a stone tile surround and deep teal walls">
+            <img src="images/bath-tub-surround.jpg" alt="Soaking tub with a stone tile surround and deep teal walls" loading="lazy">
+          </a>
+          <a class="gallery-item cat-construction" id="thumb-32" href="#photo-32" aria-label="Open photo: Interior wall of tall windows during construction">
+            <img src="images/window-wall.jpg" alt="Interior wall of tall windows during construction" loading="lazy">
+          </a>
+          <a class="gallery-item cat-construction cat-outdoor" id="thumb-33" href="#photo-33" aria-label="Open photo: Deck stairs and framing under construction">
+            <img src="images/deck-stairs.jpg" alt="Deck stairs and framing under construction" loading="lazy">
+          </a>
+          <a class="gallery-item cat-kitchen cat-interior" id="thumb-34" href="#photo-34" aria-label="Open photo: Live-edge wood bar top with open shelving">
+            <img src="images/kitchen-live-edge-bar.jpg" alt="Live-edge wood bar top with open shelving" loading="lazy">
+          </a>
+          <a class="gallery-item cat-construction" id="thumb-35" href="#photo-35" aria-label="Open photo: Wall framing on a new home subfloor">
+            <img src="images/framing-walls.jpg" alt="Wall framing on a new home subfloor" loading="lazy">
+          </a>
+          <a class="gallery-item cat-construction" id="thumb-36" href="#photo-36" aria-label="Open photo: Insulated foundation wall during construction">
+            <img src="images/foundation.jpg" alt="Insulated foundation wall during construction" loading="lazy">
+          </a>
+          <a class="gallery-item cat-kitchen cat-interior" id="thumb-37" href="#photo-37" aria-label="Open photo: Kitchen with a granite island, dark cabinets, and a stone mosaic backsplash">
+            <img src="images/kitchen-island-backsplash.jpg" alt="Kitchen with a granite island, dark cabinets, and a stone mosaic backsplash" loading="lazy">
+          </a>
+          <a class="gallery-item cat-construction" id="thumb-38" href="#photo-38" aria-label="Open photo: Two-story home framed and wrapped">
+            <img src="images/framing-house-wrap.jpg" alt="Two-story home framed and wrapped" loading="lazy">
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-band">
+      <img src="images/great-room-fireplace.jpg" alt="" loading="lazy">
+      <div class="container">
+        <div>
+          <h2>Picture your project here.</h2>
+          <p>Reach out to start planning, or follow along on Facebook for our latest builds.</p>
+        </div>
+        <div class="btn-row">
+          <a class="btn btn--primary" href="contact.html">Start Your Project</a>
+          <a class="btn btn--light" href="https://www.facebook.com/profile.php?id=100063575473506" target="_blank" rel="noopener">Follow on Facebook</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="lightbox" id="photo-1" role="dialog" aria-label="Custom home with elevated composite deck">
+    <a class="lightbox-backdrop" href="#thumb-1" tabindex="-1" aria-hidden="true"></a>
+    <figure>
+      <img src="images/exterior-rear-deck.jpg" alt="Custom home with an elevated composite deck and lantern posts" loading="lazy">
+    </figure>
+    <a class="lightbox-btn lightbox-prev" href="#photo-38" aria-label="Previous photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-next" href="#photo-2" aria-label="Next photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-close" href="#thumb-1" aria-label="Close photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></a>
+  </div>
+  <div class="lightbox" id="photo-2" role="dialog" aria-label="Great room with stone fireplace and timber beams">
+    <a class="lightbox-backdrop" href="#thumb-2" tabindex="-1" aria-hidden="true"></a>
+    <figure>
+      <img src="images/great-room-fireplace.jpg" alt="Great room with a stacked-stone fireplace and timber beam ceiling" loading="lazy">
+    </figure>
+    <a class="lightbox-btn lightbox-prev" href="#photo-1" aria-label="Previous photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-next" href="#photo-3" aria-label="Next photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-close" href="#thumb-2" aria-label="Close photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></a>
+  </div>
+  <div class="lightbox" id="photo-3" role="dialog" aria-label="Gable framing">
+    <a class="lightbox-backdrop" href="#thumb-3" tabindex="-1" aria-hidden="true"></a>
+    <figure>
+      <img src="images/framing-gable.jpg" alt="Timber gable framing against a blue sky" loading="lazy">
+    </figure>
+    <a class="lightbox-btn lightbox-prev" href="#photo-2" aria-label="Previous photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-next" href="#photo-4" aria-label="Next photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-close" href="#thumb-3" aria-label="Close photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></a>
+  </div>
+  <div class="lightbox" id="photo-4" role="dialog" aria-label="Open-concept kitchen with granite island">
+    <a class="lightbox-backdrop" href="#thumb-4" tabindex="-1" aria-hidden="true"></a>
+    <figure>
+      <img src="images/kitchen-island.jpg" alt="Kitchen with a granite island and bar seating" loading="lazy">
+    </figure>
+    <a class="lightbox-btn lightbox-prev" href="#photo-3" aria-label="Previous photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-next" href="#photo-5" aria-label="Next photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-close" href="#thumb-4" aria-label="Close photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></a>
+  </div>
+  <div class="lightbox" id="photo-5" role="dialog" aria-label="Kitchen with granite counters">
+    <a class="lightbox-backdrop" href="#thumb-5" tabindex="-1" aria-hidden="true"></a>
+    <figure>
+      <img src="images/kitchen-granite-dark.jpg" alt="Kitchen with dark wood cabinets, speckled granite counters, and a stainless range" loading="lazy">
+    </figure>
+    <a class="lightbox-btn lightbox-prev" href="#photo-4" aria-label="Previous photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-next" href="#photo-6" aria-label="Next photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-close" href="#thumb-5" aria-label="Close photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></a>
+  </div>
+  <div class="lightbox" id="photo-6" role="dialog" aria-label="Wooded screen porch">
+    <a class="lightbox-backdrop" href="#thumb-6" tabindex="-1" aria-hidden="true"></a>
+    <figure>
+      <img src="images/screen-porch.jpg" alt="Screened porch with wood ceiling overlooking the trees" loading="lazy">
+    </figure>
+    <a class="lightbox-btn lightbox-prev" href="#photo-5" aria-label="Previous photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-next" href="#photo-7" aria-label="Next photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-close" href="#thumb-6" aria-label="Close photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></a>
+  </div>
+  <div class="lightbox" id="photo-7" role="dialog" aria-label="Ranch home with three-stall garage">
+    <a class="lightbox-backdrop" href="#thumb-7" tabindex="-1" aria-hidden="true"></a>
+    <figure>
+      <img src="images/exterior-ranch-garage.jpg" alt="Ranch home with a three-stall garage and new driveway" loading="lazy">
+    </figure>
+    <a class="lightbox-btn lightbox-prev" href="#photo-6" aria-label="Previous photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-next" href="#photo-8" aria-label="Next photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-close" href="#thumb-7" aria-label="Close photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></a>
+  </div>
+  <div class="lightbox" id="photo-8" role="dialog" aria-label="Timber beam ceiling detail">
+    <a class="lightbox-backdrop" href="#thumb-8" tabindex="-1" aria-hidden="true"></a>
+    <figure>
+      <img src="images/coffered-ceiling.jpg" alt="Dark-stained timber beams crossing a tray ceiling" loading="lazy">
+    </figure>
+    <a class="lightbox-btn lightbox-prev" href="#photo-7" aria-label="Previous photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-next" href="#photo-9" aria-label="Next photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-close" href="#thumb-8" aria-label="Close photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></a>
+  </div>
+  <div class="lightbox" id="photo-9" role="dialog" aria-label="Custom tile shower">
+    <a class="lightbox-backdrop" href="#thumb-9" tabindex="-1" aria-hidden="true"></a>
+    <figure>
+      <img src="images/bath-tile-shower.jpg" alt="Walk-in tile shower with storage niches, a bench, and a mosaic accent band" loading="lazy">
+    </figure>
+    <a class="lightbox-btn lightbox-prev" href="#photo-8" aria-label="Previous photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-next" href="#photo-10" aria-label="Next photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-close" href="#thumb-9" aria-label="Close photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></a>
+  </div>
+  <div class="lightbox" id="photo-10" role="dialog" aria-label="Vaulted framing with walls of windows">
+    <a class="lightbox-backdrop" href="#thumb-10" tabindex="-1" aria-hidden="true"></a>
+    <figure>
+      <img src="images/framing-vaulted.jpg" alt="Vaulted room framed with large window openings" loading="lazy">
+    </figure>
+    <a class="lightbox-btn lightbox-prev" href="#photo-9" aria-label="Previous photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-next" href="#photo-11" aria-label="Next photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-close" href="#thumb-10" aria-label="Close photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></a>
+  </div>
+  <div class="lightbox" id="photo-11" role="dialog" aria-label="Deck with pergola">
+    <a class="lightbox-backdrop" href="#thumb-11" tabindex="-1" aria-hidden="true"></a>
+    <figure>
+      <img src="images/deck-pergola.jpg" alt="Deck with a pergola surrounded by evergreens" loading="lazy">
+    </figure>
+    <a class="lightbox-btn lightbox-prev" href="#photo-10" aria-label="Previous photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-next" href="#photo-12" aria-label="Next photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-close" href="#thumb-11" aria-label="Close photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></a>
+  </div>
+  <div class="lightbox" id="photo-12" role="dialog" aria-label="Kitchen with dark cabinetry and pendant lights">
+    <a class="lightbox-backdrop" href="#thumb-12" tabindex="-1" aria-hidden="true"></a>
+    <figure>
+      <img src="images/kitchen-pendants.jpg" alt="Kitchen with dark cabinets, island, and pendant lights" loading="lazy">
+    </figure>
+    <a class="lightbox-btn lightbox-prev" href="#photo-11" aria-label="Previous photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-next" href="#photo-13" aria-label="Next photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-close" href="#thumb-12" aria-label="Close photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></a>
+  </div>
+  <div class="lightbox" id="photo-13" role="dialog" aria-label="Navy kitchen with tile backsplash">
+    <a class="lightbox-backdrop" href="#thumb-13" tabindex="-1" aria-hidden="true"></a>
+    <figure>
+      <img src="images/kitchen-navy-cabinets.jpg" alt="Kitchen with navy cabinets, a stainless range hood, and a tile backsplash" loading="lazy">
+    </figure>
+    <a class="lightbox-btn lightbox-prev" href="#photo-12" aria-label="Previous photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-next" href="#photo-14" aria-label="Next photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-close" href="#thumb-13" aria-label="Close photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></a>
+  </div>
+  <div class="lightbox" id="photo-14" role="dialog" aria-label="Sunroom addition">
+    <a class="lightbox-backdrop" href="#thumb-14" tabindex="-1" aria-hidden="true"></a>
+    <figure>
+      <img src="images/sunroom-addition.jpg" alt="Sunroom addition with many windows" loading="lazy">
+    </figure>
+    <a class="lightbox-btn lightbox-prev" href="#photo-13" aria-label="Previous photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-next" href="#photo-15" aria-label="Next photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-close" href="#thumb-14" aria-label="Close photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></a>
+  </div>
+  <div class="lightbox" id="photo-15" role="dialog" aria-label="Our crew at work">
+    <a class="lightbox-backdrop" href="#thumb-15" tabindex="-1" aria-hidden="true"></a>
+    <figure>
+      <img src="images/crew-at-work.jpg" alt="Carpenter cutting trim at a job site workstation" loading="lazy">
+    </figure>
+    <a class="lightbox-btn lightbox-prev" href="#photo-14" aria-label="Previous photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-next" href="#photo-16" aria-label="Next photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-close" href="#thumb-15" aria-label="Close photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></a>
+  </div>
+  <div class="lightbox" id="photo-16" role="dialog" aria-label="Screen porch with wood plank ceiling">
+    <a class="lightbox-backdrop" href="#thumb-16" tabindex="-1" aria-hidden="true"></a>
+    <figure>
+      <img src="images/porch-ceiling.jpg" alt="Whitewashed wood plank porch ceiling with a ceiling fan" loading="lazy">
+    </figure>
+    <a class="lightbox-btn lightbox-prev" href="#photo-15" aria-label="Previous photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-next" href="#photo-17" aria-label="Next photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-close" href="#thumb-16" aria-label="Close photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></a>
+  </div>
+  <div class="lightbox" id="photo-17" role="dialog" aria-label="Primary bathroom with soaking tub">
+    <a class="lightbox-backdrop" href="#thumb-17" tabindex="-1" aria-hidden="true"></a>
+    <figure>
+      <img src="images/bath-soaking-tub.jpg" alt="Primary bathroom with a soaking tub and a lit vanity mirror" loading="lazy">
+    </figure>
+    <a class="lightbox-btn lightbox-prev" href="#photo-16" aria-label="Previous photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-next" href="#photo-18" aria-label="Next photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-close" href="#thumb-17" aria-label="Close photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></a>
+  </div>
+  <div class="lightbox" id="photo-18" role="dialog" aria-label="Custom home with patio and deck">
+    <a class="lightbox-backdrop" href="#thumb-18" tabindex="-1" aria-hidden="true"></a>
+    <figure>
+      <img src="images/exterior-patio-garden.jpg" alt="Rear of a custom home with a deck, patio, and garden" loading="lazy">
+    </figure>
+    <a class="lightbox-btn lightbox-prev" href="#photo-17" aria-label="Previous photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-next" href="#photo-19" aria-label="Next photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-close" href="#thumb-18" aria-label="Close photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></a>
+  </div>
+  <div class="lightbox" id="photo-19" role="dialog" aria-label="Open living area">
+    <a class="lightbox-backdrop" href="#thumb-19" tabindex="-1" aria-hidden="true"></a>
+    <figure>
+      <img src="images/living-room.jpg" alt="Open living area with dark accent wall and new flooring" loading="lazy">
+    </figure>
+    <a class="lightbox-btn lightbox-prev" href="#photo-18" aria-label="Previous photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-next" href="#photo-20" aria-label="Next photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-close" href="#thumb-19" aria-label="Close photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></a>
+  </div>
+  <div class="lightbox" id="photo-20" role="dialog" aria-label="Framing and trusses">
+    <a class="lightbox-backdrop" href="#thumb-20" tabindex="-1" aria-hidden="true"></a>
+    <figure>
+      <img src="images/framing-trusses.jpg" alt="Framed walls and roof trusses on a new build" loading="lazy">
+    </figure>
+    <a class="lightbox-btn lightbox-prev" href="#photo-19" aria-label="Previous photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-next" href="#photo-21" aria-label="Next photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-close" href="#thumb-20" aria-label="Close photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></a>
+  </div>
+  <div class="lightbox" id="photo-21" role="dialog" aria-label="Remodeled kitchen with white counters">
+    <a class="lightbox-backdrop" href="#thumb-21" tabindex="-1" aria-hidden="true"></a>
+    <figure>
+      <img src="images/kitchen-quartz-island.jpg" alt="Remodeled kitchen with white counters, wood cabinets, and a peninsula" loading="lazy">
+    </figure>
+    <a class="lightbox-btn lightbox-prev" href="#photo-20" aria-label="Previous photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-next" href="#photo-22" aria-label="Next photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-close" href="#thumb-21" aria-label="Close photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></a>
+  </div>
+  <div class="lightbox" id="photo-22" role="dialog" aria-label="Custom deck railing">
+    <a class="lightbox-backdrop" href="#thumb-22" tabindex="-1" aria-hidden="true"></a>
+    <figure>
+      <img src="images/deck-railing.jpg" alt="Deck railing with stained wood and black balusters" loading="lazy">
+    </figure>
+    <a class="lightbox-btn lightbox-prev" href="#photo-21" aria-label="Previous photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-next" href="#photo-23" aria-label="Next photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-close" href="#thumb-22" aria-label="Close photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></a>
+  </div>
+  <div class="lightbox" id="photo-23" role="dialog" aria-label="Bright stairwell">
+    <a class="lightbox-backdrop" href="#thumb-23" tabindex="-1" aria-hidden="true"></a>
+    <figure>
+      <img src="images/stairwell.jpg" alt="Stairwell with a window and wood handrail" loading="lazy">
+    </figure>
+    <a class="lightbox-btn lightbox-prev" href="#photo-22" aria-label="Previous photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-next" href="#photo-24" aria-label="Next photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-close" href="#thumb-23" aria-label="Close photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></a>
+  </div>
+  <div class="lightbox" id="photo-24" role="dialog" aria-label="New ranch home">
+    <a class="lightbox-backdrop" href="#thumb-24" tabindex="-1" aria-hidden="true"></a>
+    <figure>
+      <img src="images/exterior-ranch-front.jpg" alt="New ranch home with gray siding" loading="lazy">
+    </figure>
+    <a class="lightbox-btn lightbox-prev" href="#photo-23" aria-label="Previous photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-next" href="#photo-25" aria-label="Next photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-close" href="#thumb-24" aria-label="Close photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></a>
+  </div>
+  <div class="lightbox" id="photo-25" role="dialog" aria-label="Double vanity bathroom">
+    <a class="lightbox-backdrop" href="#thumb-25" tabindex="-1" aria-hidden="true"></a>
+    <figure>
+      <img src="images/bath-double-vanity.jpg" alt="Bathroom with a double vanity and dark wood cabinets" loading="lazy">
+    </figure>
+    <a class="lightbox-btn lightbox-prev" href="#photo-24" aria-label="Previous photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-next" href="#photo-26" aria-label="Next photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-close" href="#thumb-25" aria-label="Close photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></a>
+  </div>
+  <div class="lightbox" id="photo-26" role="dialog" aria-label="Setting trusses with a crane">
+    <a class="lightbox-backdrop" href="#thumb-26" tabindex="-1" aria-hidden="true"></a>
+    <figure>
+      <img src="images/framing-crane.jpg" alt="Crane lifting roof trusses onto a framed home" loading="lazy">
+    </figure>
+    <a class="lightbox-btn lightbox-prev" href="#photo-25" aria-label="Previous photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-next" href="#photo-27" aria-label="Next photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-close" href="#thumb-26" aria-label="Close photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></a>
+  </div>
+  <div class="lightbox" id="photo-27" role="dialog" aria-label="Screen porch living space">
+    <a class="lightbox-backdrop" href="#thumb-27" tabindex="-1" aria-hidden="true"></a>
+    <figure>
+      <img src="images/screen-porch-lounge.jpg" alt="Screen porch with seating and ceiling fans" loading="lazy">
+    </figure>
+    <a class="lightbox-btn lightbox-prev" href="#photo-26" aria-label="Previous photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-next" href="#photo-28" aria-label="Next photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-close" href="#thumb-27" aria-label="Close photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></a>
+  </div>
+  <div class="lightbox" id="photo-28" role="dialog" aria-label="Kitchen with raised bar seating">
+    <a class="lightbox-backdrop" href="#thumb-28" tabindex="-1" aria-hidden="true"></a>
+    <figure>
+      <img src="images/kitchen-bar-seating.jpg" alt="Kitchen with dark cabinets, a raised bar, and stainless appliances" loading="lazy">
+    </figure>
+    <a class="lightbox-btn lightbox-prev" href="#photo-27" aria-label="Previous photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-next" href="#photo-29" aria-label="Next photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-close" href="#thumb-28" aria-label="Close photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></a>
+  </div>
+  <div class="lightbox" id="photo-29" role="dialog" aria-label="Bedroom with large windows">
+    <a class="lightbox-backdrop" href="#thumb-29" tabindex="-1" aria-hidden="true"></a>
+    <figure>
+      <img src="images/bedroom.jpg" alt="Bedroom with two large windows and closet doors" loading="lazy">
+    </figure>
+    <a class="lightbox-btn lightbox-prev" href="#photo-28" aria-label="Previous photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-next" href="#photo-30" aria-label="Next photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-close" href="#thumb-29" aria-label="Close photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></a>
+  </div>
+  <div class="lightbox" id="photo-30" role="dialog" aria-label="Custom home with stone accents">
+    <a class="lightbox-backdrop" href="#thumb-30" tabindex="-1" aria-hidden="true"></a>
+    <figure>
+      <img src="images/exterior-gray-siding.jpg" alt="Custom home with green-gray siding and stone accents" loading="lazy">
+    </figure>
+    <a class="lightbox-btn lightbox-prev" href="#photo-29" aria-label="Previous photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-next" href="#photo-31" aria-label="Next photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-close" href="#thumb-30" aria-label="Close photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></a>
+  </div>
+  <div class="lightbox" id="photo-31" role="dialog" aria-label="Tile tub surround">
+    <a class="lightbox-backdrop" href="#thumb-31" tabindex="-1" aria-hidden="true"></a>
+    <figure>
+      <img src="images/bath-tub-surround.jpg" alt="Soaking tub with a stone tile surround and deep teal walls" loading="lazy">
+    </figure>
+    <a class="lightbox-btn lightbox-prev" href="#photo-30" aria-label="Previous photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-next" href="#photo-32" aria-label="Next photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-close" href="#thumb-31" aria-label="Close photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></a>
+  </div>
+  <div class="lightbox" id="photo-32" role="dialog" aria-label="Window wall taking shape">
+    <a class="lightbox-backdrop" href="#thumb-32" tabindex="-1" aria-hidden="true"></a>
+    <figure>
+      <img src="images/window-wall.jpg" alt="Interior wall of tall windows during construction" loading="lazy">
+    </figure>
+    <a class="lightbox-btn lightbox-prev" href="#photo-31" aria-label="Previous photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-next" href="#photo-33" aria-label="Next photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-close" href="#thumb-32" aria-label="Close photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></a>
+  </div>
+  <div class="lightbox" id="photo-33" role="dialog" aria-label="Deck stairs under construction">
+    <a class="lightbox-backdrop" href="#thumb-33" tabindex="-1" aria-hidden="true"></a>
+    <figure>
+      <img src="images/deck-stairs.jpg" alt="Deck stairs and framing under construction" loading="lazy">
+    </figure>
+    <a class="lightbox-btn lightbox-prev" href="#photo-32" aria-label="Previous photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-next" href="#photo-34" aria-label="Next photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-close" href="#thumb-33" aria-label="Close photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></a>
+  </div>
+  <div class="lightbox" id="photo-34" role="dialog" aria-label="Live-edge wood bar">
+    <a class="lightbox-backdrop" href="#thumb-34" tabindex="-1" aria-hidden="true"></a>
+    <figure>
+      <img src="images/kitchen-live-edge-bar.jpg" alt="Live-edge wood bar top with open shelving" loading="lazy">
+    </figure>
+    <a class="lightbox-btn lightbox-prev" href="#photo-33" aria-label="Previous photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-next" href="#photo-35" aria-label="Next photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-close" href="#thumb-34" aria-label="Close photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></a>
+  </div>
+  <div class="lightbox" id="photo-35" role="dialog" aria-label="Wall framing">
+    <a class="lightbox-backdrop" href="#thumb-35" tabindex="-1" aria-hidden="true"></a>
+    <figure>
+      <img src="images/framing-walls.jpg" alt="Wall framing on a new home subfloor" loading="lazy">
+    </figure>
+    <a class="lightbox-btn lightbox-prev" href="#photo-34" aria-label="Previous photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-next" href="#photo-36" aria-label="Next photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-close" href="#thumb-35" aria-label="Close photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></a>
+  </div>
+  <div class="lightbox" id="photo-36" role="dialog" aria-label="Insulated foundation">
+    <a class="lightbox-backdrop" href="#thumb-36" tabindex="-1" aria-hidden="true"></a>
+    <figure>
+      <img src="images/foundation.jpg" alt="Insulated foundation wall during construction" loading="lazy">
+    </figure>
+    <a class="lightbox-btn lightbox-prev" href="#photo-35" aria-label="Previous photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-next" href="#photo-37" aria-label="Next photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-close" href="#thumb-36" aria-label="Close photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></a>
+  </div>
+  <div class="lightbox" id="photo-37" role="dialog" aria-label="Kitchen island and mosaic backsplash">
+    <a class="lightbox-backdrop" href="#thumb-37" tabindex="-1" aria-hidden="true"></a>
+    <figure>
+      <img src="images/kitchen-island-backsplash.jpg" alt="Kitchen with a granite island, dark cabinets, and a stone mosaic backsplash" loading="lazy">
+    </figure>
+    <a class="lightbox-btn lightbox-prev" href="#photo-36" aria-label="Previous photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-next" href="#photo-38" aria-label="Next photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-close" href="#thumb-37" aria-label="Close photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></a>
+  </div>
+  <div class="lightbox" id="photo-38" role="dialog" aria-label="House wrap and framing">
+    <a class="lightbox-backdrop" href="#thumb-38" tabindex="-1" aria-hidden="true"></a>
+    <figure>
+      <img src="images/framing-house-wrap.jpg" alt="Two-story home framed and wrapped" loading="lazy">
+    </figure>
+    <a class="lightbox-btn lightbox-prev" href="#photo-37" aria-label="Previous photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-next" href="#photo-1" aria-label="Next photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></a>
+    <a class="lightbox-btn lightbox-close" href="#thumb-38" aria-label="Close photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></a>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <a class="logo" href="index.html" aria-label="Barber Builders home">
+            <svg class="logo-mark" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="12" fill="#baab5d"/><path d="M12 34 32 16l20 18" fill="none" stroke="#111111" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><path d="M19 31v17h26V31" fill="none" stroke="#111111" stroke-width="4" stroke-linejoin="round"/><path d="M28 48V38h8v10" fill="none" stroke="#111111" stroke-width="4" stroke-linejoin="round"/></svg>
+            <span class="logo-text"><span class="logo-name">Barber Builders</span><span class="logo-tag">Custom Homes</span></span>
+          </a>
+          <p>Built with love in Eau Claire and the Chippewa Valley since 2014.</p>
+          <div class="footer-social">
+            <span>Follow us on</span>
+            <a class="social-icon" href="https://www.facebook.com/profile.php?id=100063575473506" target="_blank" rel="noopener" aria-label="Barber Builders on Facebook">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.5 22v-8h2.7l.4-3.2h-3.1V8.8c0-.9.3-1.6 1.6-1.6h1.7V4.4c-.3 0-1.3-.1-2.5-.1-2.5 0-4.1 1.5-4.1 4.2v2.3H7.4V14h2.8v8h3.3Z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div>
+          <h2>Explore</h2>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="work.html">Our Work</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Services</h2>
+          <ul class="footer-links">
+            <li><a href="services.html#custom-homes">Custom Homes</a></li>
+            <li><a href="services.html#additions">Additions</a></li>
+            <li><a href="services.html#remodels">Remodels</a></li>
+            <li><a href="services.html#kitchens">Kitchens &amp; Baths</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Get in Touch</h2>
+          <ul class="footer-contact">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <a href="tel:+17158287780">715-828-7780</a>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+              <a href="https://www.google.com/maps/search/?api=1&amp;query=4319+Jeffers+Road+Suite+103+Eau+Claire+WI+54703" target="_blank" rel="noopener">4319 Jeffers Road, Suite 103<br>Eau Claire, WI 54703</a>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
+              <a href="mailto:barberbuilders@icloud.com">barberbuilders@icloud.com</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-legal">
+          <span>&copy; 2026 Barber Builders Inc. All rights reserved.</span>
+          <ul class="footer-legal-links">
+            <li><a href="sitemap.html">Site Map</a></li>
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="ai-policy.html">AI Policy</a></li>
+            <li><a href="ai-readiness.html">AI Readiness Service Index</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="js/lightbox.js" defer></script>
+  <script src="js/filters.js" defer></script>
+</body>
+</html>
