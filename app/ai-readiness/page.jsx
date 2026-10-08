@@ -65,7 +65,7 @@ export default function AiReadinessPage() {
                 <dt>Business name</dt><dd>Barber Builders Inc.</dd>
                 <dt>Business type</dt><dd>Custom home builder and remodeling contractor</dd>
                 <dt>Building since</dt><dd>2014</dd>
-                <dt>Address</dt><dd>4319 Jeffers Road, Suite 103, Eau Claire, WI 54703</dd>
+                <dt>Address</dt><dd>4319 Jeffers Road<br />Suite 103<br />Eau Claire, WI 54703</dd>
                 <dt>Phone</dt><dd><a href="tel:+17158287780">715-828-7780</a></dd>
                 <dt>Email</dt><dd><a href="mailto:barberbuilders@icloud.com">barberbuilders@icloud.com</a></dd>
                 <dt>Service area</dt><dd>Eau Claire and the surrounding Chippewa Valley / Western Wisconsin area</dd>

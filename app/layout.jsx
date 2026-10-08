@@ -1,6 +1,7 @@
 import '../css/styles.css';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import ScrollToTop from '../components/ScrollToTop';
 
 export const metadata = {
   icons: {
@@ -22,6 +23,7 @@ export default function RootLayout({ children }) {
         <Header />
         {children}
         <Footer />
+        <ScrollToTop />
       </body>
     </html>
   );

@@ -99,37 +99,39 @@ export default function HomePage() {
         </section>
 
         <section className="section section--dark section--compact">
-          <div className="container split">
-            <div>
-              <span className="eyebrow">How We Work</span>
-              <h2>A building experience without the stress</h2>
-              <p>Clear communication and a proven process mean you always know what's happening next, and why.</p>
-              <ol className="process-list">
-                <li>
-                  <span className="step-label">Step 1</span>
-                  <h3>Listen and plan</h3>
-                  <p>We start with a conversation about your goals, lifestyle, budget, and the feeling you want your home to have.</p>
-                </li>
-                <li>
-                  <span className="step-label">Step 2</span>
-                  <h3>Design</h3>
-                  <p>Together we refine plans, choose materials, and settle the details before a single board is cut.</p>
-                </li>
-                <li>
-                  <span className="step-label">Step 3</span>
-                  <h3>Build</h3>
-                  <p>Our experienced crew and trusted local trades build with care and keep you informed along the way.</p>
-                </li>
-                <li>
-                  <span className="step-label">Step 4</span>
-                  <h3>Welcome home</h3>
-                  <p>We walk through the finished project with you and stand behind our work long after move-in day.</p>
-                </li>
-              </ol>
+          <div className="container">
+            <div className="split process-intro">
+              <div>
+                <span className="eyebrow">How We Work</span>
+                <h2>A building experience without the stress</h2>
+                <p>Clear communication and a proven process mean you always know what's happening next, and why.</p>
+              </div>
+              <div className="process-media">
+                <img src="/images/framing-vaulted.jpg" alt="Vaulted room framed with tall window openings during construction" loading="lazy" />
+              </div>
             </div>
-            <div className="process-media">
-              <img src="/images/framing-vaulted.jpg" alt="Vaulted room framed with tall window openings during construction" loading="lazy" />
-            </div>
+            <ol className="stage-grid">
+              <li className="stage-card">
+                <span className="stage-label">Step 1</span>
+                <h3>Listen and plan</h3>
+                <p>We start with a conversation about your goals, lifestyle, budget, and the feeling you want your home to have.</p>
+              </li>
+              <li className="stage-card">
+                <span className="stage-label">Step 2</span>
+                <h3>Design</h3>
+                <p>Together we refine plans, choose materials, and settle the details before a single board is cut.</p>
+              </li>
+              <li className="stage-card">
+                <span className="stage-label">Step 3</span>
+                <h3>Build</h3>
+                <p>Our experienced crew and trusted local trades build with care and keep you informed along the way.</p>
+              </li>
+              <li className="stage-card">
+                <span className="stage-label">Step 4</span>
+                <h3>Welcome home</h3>
+                <p>We walk through the finished project with you and stand behind our work long after move-in day.</p>
+              </li>
+            </ol>
           </div>
         </section>
 

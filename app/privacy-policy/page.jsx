@@ -61,7 +61,7 @@ export default function PrivacyPolicyPage() {
               <p>We may update this policy from time to time. The date at the top of this page shows when it was last revised.</p>
 
               <h2>Contact us</h2>
-              <p>Barber Builders Inc.<br />4319 Jeffers Road, Suite 103, Eau Claire, WI 54703<br />Phone: <a href="tel:+17158287780">715-828-7780</a><br />Email: <a href="mailto:barberbuilders@icloud.com">barberbuilders@icloud.com</a></p>
+              <p>Barber Builders Inc.<br />4319 Jeffers Road<br />Suite 103<br />Eau Claire, WI 54703<br />Phone: <a href="tel:+17158287780">715-828-7780</a><br />Email: <a href="mailto:barberbuilders@icloud.com">barberbuilders@icloud.com</a></p>
             </div>
             <div className="btn-row">
               <Link className="btn btn--outline" href="/">Back to Home</Link>

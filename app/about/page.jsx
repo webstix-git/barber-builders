@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import TabsBehavior from '../../components/TabsBehavior';
 
 export const metadata = {
   title: "About Us | Barber Builders, Eau Claire Custom Home Builder",
@@ -130,7 +129,7 @@ export default function AboutPage() {
                   <p>Built tough, built for life, with quality materials and no corners cut on the details.</p>
                 </li>
                 <li>
-                  <img className="value-icon" src="/icons/answer.svg" alt="" width="44" height="44" />
+                  <img className="value-icon" src="/icons/check.svg" alt="" width="44" height="44" />
                   <h3>No stress, no surprises</h3>
                   <p>Honest answers and a clear process, so building feels exciting instead of overwhelming.</p>
                 </li>
@@ -140,41 +139,41 @@ export default function AboutPage() {
         </section>
 
         <section className="section">
-          <div className="container split split-media-first">
-            <div className="about-media">
-              <img src="/images/framing-walls.jpg" alt="Wall framing going up on a new Barber Builders home" loading="lazy" />
+          <div className="container">
+            <div className="split split-media-first">
+              <div className="about-media">
+                <img src="/images/framing-walls.jpg" alt="Wall framing going up on a new Barber Builders home" loading="lazy" />
+              </div>
+              <div>
+                <span className="eyebrow">Behind Every Build</span>
+                <h2>From foundation to finishing touches</h2>
+                <p>We provide specialty design and quality craftsmanship at every stage. From planning and development to framing, finishes, and the final walkthrough, you work with one team that knows your home inside and out.</p>
+              </div>
             </div>
-            <div>
-              <span className="eyebrow">Behind Every Build</span>
-              <h2>From foundation to finishing touches</h2>
-              <p>We provide specialty design and quality craftsmanship at every stage. From planning and development to framing, finishes, and the final walkthrough, you work with one team that knows your home inside and out.</p>
-              <div className="tabs">
-                <div className="tab-list" role="tablist" aria-label="Stages of every build">
-                  <button type="button" role="tab" id="tab-planning" aria-controls="panel-planning" aria-selected="true">Planning</button>{" "}
-                  <button type="button" role="tab" id="tab-framing" aria-controls="panel-framing" aria-selected="false" tabIndex="-1">Framing</button>{" "}
-                  <button type="button" role="tab" id="tab-finishes" aria-controls="panel-finishes" aria-selected="false" tabIndex="-1">Finishes</button>{" "}
-                  <button type="button" role="tab" id="tab-partners" aria-controls="panel-partners" aria-selected="false" tabIndex="-1">Partners</button>
-                </div>
-                <div className="tab-panel" role="tabpanel" id="panel-planning" aria-labelledby="tab-planning" tabIndex="0">
-                  <h3>Planning, development, and specialty design</h3>
-                  <p>Every build starts with a conversation. We help you shape the plan, choose materials, and set a clear budget and schedule, with specialty design for the details that make the home yours.</p>
-                </div>
-                <div className="tab-panel" role="tabpanel" id="panel-framing" aria-labelledby="tab-framing" tabIndex="0" hidden>
-                  <h3>Solid foundations and quality framing</h3>
-                  <p>What you can't see matters most. We pour solid foundations and frame every wall square and strong, so your home is ready for decades of Wisconsin winters.</p>
-                </div>
-                <div className="tab-panel" role="tabpanel" id="panel-finishes" aria-labelledby="tab-finishes" tabIndex="0" hidden>
-                  <h3>Custom interior and exterior finishes</h3>
-                  <p>Trim, cabinetry, tile, siding, and stone. The finishes are where your home's personality comes through, and we take the time to get every detail right.</p>
-                </div>
-                <div className="tab-panel" role="tabpanel" id="panel-partners" aria-labelledby="tab-partners" tabIndex="0" hidden>
-                  <h3>Established, experienced trade partners</h3>
-                  <p>We work with trusted local trades we know well. One team coordinates everyone, so you have a single point of contact from the first plan to the final walkthrough.</p>
-                </div>
-              </div>
-              <div className="btn-row">
-                <Link className="btn btn--outline" href="/services">Explore Our Services</Link>
-              </div>
+            <ul className="stage-grid">
+              <li className="stage-card">
+                <span className="stage-label">Planning</span>
+                <h3>Planning, development, and specialty design</h3>
+                <p>Every build starts with a conversation. We help you shape the plan, choose materials, and set a clear budget and schedule, with specialty design for the details that make the home yours.</p>
+              </li>
+              <li className="stage-card">
+                <span className="stage-label">Framing</span>
+                <h3>Solid foundations and quality framing</h3>
+                <p>What you can't see matters most. We pour solid foundations and frame every wall square and strong, so your home is ready for decades of Wisconsin winters.</p>
+              </li>
+              <li className="stage-card">
+                <span className="stage-label">Finishes</span>
+                <h3>Custom interior and exterior finishes</h3>
+                <p>Trim, cabinetry, tile, siding, and stone. The finishes are where your home's personality comes through, and we take the time to get every detail right.</p>
+              </li>
+              <li className="stage-card">
+                <span className="stage-label">Partners</span>
+                <h3>Established, experienced trade partners</h3>
+                <p>We work with trusted local trades we know well. One team coordinates everyone, so you have a single point of contact from the first plan to the final walkthrough.</p>
+              </li>
+            </ul>
+            <div className="btn-row btn-row--center">
+              <Link className="btn btn--outline" href="/services">Explore Our Services</Link>
             </div>
           </div>
         </section>
@@ -193,7 +192,6 @@ export default function AboutPage() {
           </div>
         </section>
       </main>
-      <TabsBehavior />
     </>
   );
 }

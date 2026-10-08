@@ -34,9 +34,9 @@ export default function TestimonialsPage() {
           <div className="container">
             <div className="section-head section-head--center">
               <span className="eyebrow">Kind Words</span>
-              <h2>Pride in every project</h2>
+              <h2>Built with love</h2>
             </div>
-            <div className="review-grid review-grid--2">
+            <div className="review-grid review-grid--stack">
               <figure className="review-card">
                 <svg className="review-mark" viewBox="0 0 32 32" fill="currentColor" aria-hidden="true"><path d="M13 8C7.5 9.6 4 14 4 19.5 4 23 6.2 25 9 25c2.6 0 4.5-1.9 4.5-4.4 0-2.4-1.7-4.2-4-4.2-.4 0-.9.1-1.1.2.6-2.7 2.8-5.2 5.6-6.3L13 8Zm14 0c-5.5 1.6-9 6-9 11.5 0 3.5 2.2 5.5 5 5.5 2.6 0 4.5-1.9 4.5-4.4 0-2.4-1.7-4.2-4-4.2-.4 0-.9.1-1.1.2.6-2.7 2.8-5.2 5.6-6.3L27 8Z" /></svg>
                 <blockquote>&ldquo;Completely exceeded our expectations&hellip; Barber Builders helped us to achieve our vision of what we wanted in a home, but we never dreamed it would be so easy. They took a great deal of time to get the details correct and used excellent craftsmanship and materials to build our home. We really appreciated the personal touch throughout the whole process and the end product was an incredible new home. We couldn't be happier with our Barber Builder dream home and would recommend them to anyone looking to build or remodel; their service, work, expertise, and pricing was exceptional.&rdquo;</blockquote>
